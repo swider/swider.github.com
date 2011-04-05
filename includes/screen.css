@@ -1,0 +1,162 @@
+body {
+  background: #0c0140;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+img {
+  border: 0;
+}
+#container {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -490px;
+  width: 980px;
+  height: 100%;
+  background-image: url('../images/bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#logo {
+  position: absolute;
+  left: 243px;
+  top: 50%;
+  margin-top: -42px;
+}
+#nav {
+  position: absolute;
+  left: 283px;
+  top: 50%;
+  margin-top: 97px;
+  font-size: 16px;
+  color: #777;
+}
+#nav a {
+  color: #777;
+  text-decoration: none;
+}
+#nav a:hover {
+  color: #777;
+  text-decoration: underline;
+}
+#nav a:focus {
+  outline: none;
+}
+#main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -15px;
+  width: 360px;
+  height: 18px;
+  padding: 5px;
+  border: 1px solid #999;
+  background-image: url('../images/main-bg.png');
+  background-repeat: repeat;
+  color: #fff;
+  overflow: hidden;
+}
+#main .grey {
+  color: #777;
+}
+#main img {
+  border: 1px solid #999;
+  margin: 20px 0;
+}
+#inner a {
+  color: #01016b;
+  text-decoration: none;
+}
+#inner a:hover {
+  color: #01016b;
+  text-decoration: underline;
+}
+.home {
+  height: 18px;
+  margin-top: -15px;
+  color: #fff;
+}
+.about {
+  height: 290px;
+  margin-top: -145px;
+  color: #fff;
+}
+.resume {
+  height: 467px;
+  margin-top: -227px;
+  color: #000;
+}
+.portfolio {
+  height: 270px;
+  margin-top: -135px;
+  color: #fff;
+}
+#port-list {
+  width: 1480px;
+}
+.port-pane {
+  float: left;
+  width: 360px;
+  margin-left: 2px;
+  margin-right: 8px;
+}
+.more {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: #000;
+  width: 92px;
+}
+.more div {
+  float: left;
+  margin-left: 1px;
+  padding-top: 4px;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+}
+.block1 {
+  background-color: #aaa;
+  cursor:pointer;
+}
+.block2 {
+  background-color: #7a8;
+  cursor:pointer;
+}
+.icon-spacer{
+  display: inline-block;
+  width: 15px;
+}
+.resume-sub{
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+.resume-sub li{
+  margin-left: 15px;
+}
+
+#footer {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	padding: 0;
+	margin: 0;	
+}
+#footer a {
+	background: url("../images/sprite.png") no-repeat 0 0;
+	width: 64px;
+	height: 64px;
+	opacity: .1;
+	float: left;
+	display: block;
+}
+#footer a:hover {
+	opacity: 1;
+}
+a#lab { background-position: 0px 0; opacity: .2; }
+a#facebook { background-position: -64px 0; }
+a#linkedin { background-position: -128px 0; }
+a#twitter { background-position: -192px 0; }
+a#github { background-position: -256px 0; }

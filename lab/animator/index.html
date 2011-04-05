@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang=en>
+<head>
+	<meta charset=utf-8>
+	<title>HTML5 Animator</title>
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="container">
+		<canvas id="stage" width="1000" height="450">
+			Canvas not supported!
+		</canvas>
+		<div id="creator">
+			<form id="designer">
+				<select id="frm_t">
+					<option value="1">Rectangle</option>
+					<option value="2">Circle</option>
+					<option value="3">Text</option>
+				</select>
+				<input type="submit" value="Add Shape" class="btn_green" />
+				<input type="button" value="Clear" id="clear" class="btn_red" />
+				<hr />
+				<label for="x">X</label><input type="number" id="frm_x" size="10" value="200" />
+				<label for="y">Y</label><input type="number" id="frm_y" size="10" value="200" />
+				(Click canvas to set coordinates)
+				<hr />
+				<label for="w" class="perams rect">Width</label><input type="number" id="frm_w" size="10" value="300" class="perams rect" />
+				<label for="h" class="perams rect">Height</label><input type="number" id="frm_h" size="10" value="100" class="perams rect" />
+				<label for="r" class="perams circ">Radius</label><input type="number" id="frm_r" size="10" value="80" class="perams circ" />
+				<label for="txt" class="perams txt">Text</label><input type="text" id="frm_txt" size="25" value="Hello world!" class="perams txt" />
+				<hr />
+				<label for="c">Color</label><input type="color" id="frm_c" value="#c32d41" />
+			</form>
+		</div>
+		<div id="feedback">
+			<div id="console">
+				<h3>Console</h3>
+			</div>	
+		</div>
+		<div class="clear10"></div>
+	</div>
+	
+	<script src="jquery-1.5.1.min.js"></script>	
+	<script src="animator.js"></script>
+</body>
+</html>
